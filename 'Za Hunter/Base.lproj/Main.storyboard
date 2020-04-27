@@ -45,14 +45,72 @@
                     <view key="view" contentMode="scaleToFill" id="krW-dn-bfx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qe7-c7-in2">
+                                <rect key="frame" x="107" y="203" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Uk4-qp-P9j"/>
+                                    <constraint firstAttribute="height" constant="50" id="hSF-Y8-Abc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEa-25-UNC">
+                                <rect key="frame" x="107" y="339" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="FKt-4G-b2X"/>
+                                    <constraint firstAttribute="height" constant="150" id="qBa-B8-z0z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R33-CQ-5cJ">
+                                <rect key="frame" x="107" y="576" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="GeX-zD-Vx2"/>
+                                    <constraint firstAttribute="height" constant="50" id="y9M-Tz-zL1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASg-KV-EN1">
+                                <rect key="frame" x="172" y="699" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="LEv-Ao-OMj" eventType="touchUpInside" id="4cV-XP-aCS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bP-Vo-rgy">
+                                <rect key="frame" x="179" y="790" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Website"/>
+                                <connections>
+                                    <action selector="onWebsiteButtonTapped:" destination="LEv-Ao-OMj" eventType="touchUpInside" id="ocL-UT-Egq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pEa-25-UNC" firstAttribute="centerX" secondItem="krW-dn-bfx" secondAttribute="centerX" id="aRE-sd-My3"/>
+                            <constraint firstItem="Qe7-c7-in2" firstAttribute="centerX" secondItem="krW-dn-bfx" secondAttribute="centerX" id="fgF-wo-Wa1"/>
+                            <constraint firstItem="R33-CQ-5cJ" firstAttribute="centerX" secondItem="krW-dn-bfx" secondAttribute="centerX" id="yme-Zu-Jlf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NWJ-PY-yfC"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZZA-Ee-B3a"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="pEa-25-UNC" id="N1E-dU-gdk"/>
+                        <outlet property="nameLabel" destination="Qe7-c7-in2" id="egH-N0-A7H"/>
+                        <outlet property="phoneLabel" destination="R33-CQ-5cJ" id="L6l-c0-f1k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tbg-9C-v0A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1945" y="99"/>
+            <point key="canvasLocation" x="1944.9275362318842" y="98.4375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jDH-EQ-KPX">

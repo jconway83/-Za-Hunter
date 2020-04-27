@@ -13,8 +13,6 @@
 		9040E7D1240D6AF40025E8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9040E7CF240D6AF40025E8E2 /* Main.storyboard */; };
 		9040E7D3240D6AFB0025E8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9040E7D2240D6AFB0025E8E2 /* Assets.xcassets */; };
 		9040E7D6240D6AFB0025E8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9040E7D4240D6AFB0025E8E2 /* LaunchScreen.storyboard */; };
-		9040E7E1240D6AFB0025E8E2 /* _Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040E7E0240D6AFB0025E8E2 /* _Za_HunterTests.swift */; };
-		9040E7EC240D6AFB0025E8E2 /* _Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040E7EB240D6AFB0025E8E2 /* _Za_HunterUITests.swift */; };
 		9040E7FA241011E80025E8E2 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040E7F9241011E80025E8E2 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,11 +43,7 @@
 		9040E7D5240D6AFB0025E8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9040E7D7240D6AFB0025E8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9040E7DC240D6AFB0025E8E2 /* 'Za HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "'Za HunterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9040E7E0240D6AFB0025E8E2 /* _Za_HunterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterTests.swift; sourceTree = "<group>"; };
-		9040E7E2240D6AFB0025E8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9040E7E7240D6AFB0025E8E2 /* 'Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "'Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9040E7EB240D6AFB0025E8E2 /* _Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterUITests.swift; sourceTree = "<group>"; };
-		9040E7ED240D6AFB0025E8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9040E7F9241011E80025E8E2 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				9040E7C8240D6AF40025E8E2 /* 'Za Hunter */,
-				9040E7DF240D6AFB0025E8E2 /* 'Za HunterTests */,
-				9040E7EA240D6AFB0025E8E2 /* 'Za HunterUITests */,
 				9040E7C7240D6AF40025E8E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,24 +103,6 @@
 				9040E7D7240D6AFB0025E8E2 /* Info.plist */,
 			);
 			path = "'Za Hunter";
-			sourceTree = "<group>";
-		};
-		9040E7DF240D6AFB0025E8E2 /* 'Za HunterTests */ = {
-			isa = PBXGroup;
-			children = (
-				9040E7E0240D6AFB0025E8E2 /* _Za_HunterTests.swift */,
-				9040E7E2240D6AFB0025E8E2 /* Info.plist */,
-			);
-			path = "'Za HunterTests";
-			sourceTree = "<group>";
-		};
-		9040E7EA240D6AFB0025E8E2 /* 'Za HunterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9040E7EB240D6AFB0025E8E2 /* _Za_HunterUITests.swift */,
-				9040E7ED240D6AFB0025E8E2 /* Info.plist */,
-			);
-			path = "'Za HunterUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9040E7E1240D6AFB0025E8E2 /* _Za_HunterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9040E7EC240D6AFB0025E8E2 /* _Za_HunterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
